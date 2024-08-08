@@ -2,9 +2,9 @@
 
 const numberArg = process.argv.slice(2).length;
 console.log(
-    numberArg === 0
+    (numberArg === 0)
     ? 'No argument'
-    : numberArg === 1
+    : (numberArg === 1)
     ? 'Argument found'
     : 'Arguments found'
 );
